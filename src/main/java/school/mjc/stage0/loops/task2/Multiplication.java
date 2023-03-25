@@ -8,13 +8,5 @@ public class Multiplication {
     }
     
     public void printMultiplied(int multiplyByAndToInclusive) {
-        long m = 0;
-        long b = multiplyByAndToInclusive * multiplyByAndToInclusive;
-        boolean d = true;
-        while(d){
-            System.out.println(m);
-            m = m + multiplyByAndToInclusive;
-            d = multiplyByAndToInclusive < 0 ? -m <= b : m <= b;
-        }
     }
 }
